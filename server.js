@@ -57,3 +57,20 @@ app.post('/api/notes', (req, res) => {
         res.json(notes);
       })
   });
+
+  //-- Adding a DELETE route for the /api/notes/:id path of the server--//
+//--When a user sends a DELETE request to this path with a specific note ID as a parameter the function will be executed--//
+//-- The notes array is then read from the db.json file using the getDBContent() function--//
+app.delete('/api/notes/:id', (req, res) => {
+    const noteID = req.params.id;
+  
+     let notes = getDBContent()
+     
+      notes = notes.filter((note) => note.id !== noteID);
+  
+      fs.writeFile('db/db.json', JSON.stringify(notes), (err) => {
+        if (err) throw err;
+        res.json(notes);
+      })
+  });
+  
