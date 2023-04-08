@@ -74,3 +74,6 @@ app.delete('/api/notes/:id', (req, res) => {
       })
   });
   
+  //-- This code starts the server--//
+//--If the environment variable PORT is set, the server will listen on that port number--//
+app.listen(port, () => console.log(`Server started at port ${port}`));
