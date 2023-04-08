@@ -33,3 +33,11 @@ app.get('/notes', (req, res) => {
     const dbStr = fs.readFileSync('./db/db.json', 'utf8');
     return JSON.parse(dbStr);
   }
+
+  //-- Adding a  GET route for the /api/notes path of the server--//
+//-- Adding a getDBContent() function that is called to read the contents of the db.json file--//
+//-- res.json() method is then used to send the notes object as a JSON response to the user--//
+app.get('/api/notes', (req, res) => {
+    const notes = getDBContent();
+    res.json(notes);
+});
