@@ -20,3 +20,16 @@ app.get("/", (req, res) => {
       //--The argument passed to sendFile() is the file path of the file to be sent--//
       res.sendFile(__dirname + "/public/index.html");
     });
+
+    //-- GET route for the /notes path of the server--//
+app.get('/notes', (req, res) => {
+    //-- The res.sendFile() method is an Express.js method that sends a file as the response to a client's request--//
+    //-- The argument passed to sendFile() is the file path of the file to be sent--//
+    //-- __dirname is a global variable that refers to the directory where the current script file is located. '/public/notes.html'--//
+    res.sendFile(__dirname + '/public/notes.html');
+  });
+  //--Adding a function reads the content of a JSON file named db.json in the db--//
+  function getDBContent() {
+    const dbStr = fs.readFileSync('./db/db.json', 'utf8');
+    return JSON.parse(dbStr);
+  }
