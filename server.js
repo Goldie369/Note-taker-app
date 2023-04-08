@@ -41,3 +41,19 @@ app.get('/api/notes', (req, res) => {
     const notes = getDBContent();
     res.json(notes);
 });
+
+//-- Adding s POST route for the /api/notes path of the server--//
+//-- "notes" is an array written back to the db.json file using the fs.writeFile() method--//
+app.post('/api/notes', (req, res) => {
+    console.log(req.body);
+    let notes = getDBContent() 
+      notes.push({
+        title: req.body.title,
+        text: req.body.text,
+        id: uuid(),
+      });
+      fs.writeFile('db/db.json', JSON.stringify(notes, null, 4), (err) => {
+        if (err) throw err;
+        res.json(notes);
+      })
+  });
