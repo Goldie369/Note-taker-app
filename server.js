@@ -14,7 +14,7 @@ app.use(express.static('public'));
 //-- GET route for the root path of the server--//
 //-- Adding a  two functions (req and res), which represent the incoming request--//
 //--Inside the callback function, the res.sendFile() method is used to send the index.html file to the client--//
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
     //-- Adding a index.html file to the client as a response to a GET request to the root path of the server ("/")--//
       //-- The res.sendFile() method is an Express.js method that sends a file as the response to a client's request--//
       //--The argument passed to sendFile() is the file path of the file to be sent--//
@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
     });
 
     //-- GET route for the /notes path of the server--//
-app.get('/notes', (req, res) => {
+app.get('/notes', (_req, res) => {
     //-- The res.sendFile() method is an Express.js method that sends a file as the response to a client's request--//
     //-- The argument passed to sendFile() is the file path of the file to be sent--//
     //-- __dirname is a global variable that refers to the directory where the current script file is located. '/public/notes.html'--//
@@ -37,7 +37,7 @@ app.get('/notes', (req, res) => {
   //-- Adding a  GET route for the /api/notes path of the server--//
 //-- Adding a getDBContent() function that is called to read the contents of the db.json file--//
 //-- res.json() method is then used to send the notes object as a JSON response to the user--//
-app.get('/api/notes', (req, res) => {
+app.get('/api/notes', (_req, res) => {
     const notes = getDBContent();
     res.json(notes);
 });
