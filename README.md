@@ -71,7 +71,7 @@ If you have any questions regarding this project, please don't hesitate to conta
 
 ## Credits 
 
-Thank you to my tutor Collin Porter [Collin Porter!](https://github.com/portercol) for the support and help on this assighment.
+Big Thanks to my tutor Collin Porter [Collin Porter!](https://github.com/portercol) for the help support and help on this assighment.
 Highly recommend!!!
 
 
