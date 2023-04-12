@@ -1,10 +1,12 @@
-//-- Adding a module.exports = () => ... function that generates a random hexadecimal string--//
-//--This function can be imported and used in other parts of the code--//
+//-- Adding a function uuid--//
+//-- The function generates a random unique identifier using the UUID algorithm--//
+//-- The function returns the resulting string and generates a random numbers--//
 
-    uuid = () => {
-      var num = Math.floor((1 + Math.random()) * 0x10000)
-      num.toString(16)
-      num.substring(1);
-      return num
-    }
-    module.exports = uuid 
+uuid = () => {
+  var num = Math.floor((1 + Math.random()) * 0x10000)
+  var hexString = num.toString(16)
+  hexString = hexString.substring(1)
+  return hexString
+}
+
+module.exports = uuid
