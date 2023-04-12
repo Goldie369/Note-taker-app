@@ -8,12 +8,10 @@
 This application helps to organize tasks and delete them after they are completed. 
 
 - When users log into the application, they are going to see a landing page that contains a link to their notes page
-- When users click on the notes page link, they are going to see a page that contains their existing notes
 - When users enter new notes, a Save icon appears in the right top corner
-- When users click the Save Icon, the new note appears in the left-hand column
-- When users click on an existing note in the left-hand column, the note appears in the right-hand column
-- When users click on the Write (+) icon in the navigation bar, an empty field is presented in the right-hand column that allows to enter a new note
-- When users click on the Delete icon next to a specific note, that note is deleted and disappears from the left-hand column
+- When users click the Save Icon, the new note appears in the left side
+- When users click on the Write (+) icon it allows the add a note
+- When users click on the Delete icon a note will be deleted
 
 ## Table of Contents
 
@@ -36,10 +34,11 @@ This application helps to organize tasks and delete them after they are complete
     <li>
         <a href="#resourses">Resourses</a>
     </li>
-  </ul>
-        <a href="#Credits">Credits</a>
+    <li>
+        <a href="#credits">Credits</a>
     </li>
   </ul>
+   
 
   ## Installation
 
@@ -48,7 +47,10 @@ This application helps to organize tasks and delete them after they are complete
 Check out the Note Taker App [here!](https://goldie-note-taker.herokuapp.com/)
 
 ## Usage
+## ![Screenshot](./Images/Main%20page.png)
 
+
+## ![Screenshot](./Images/notes.png)
 ## Questions
 
 If you have any questions regarding this project, please don't hesitate to contact me using my email address: zlatelinarizova@gmail.com. You can find my project repositories here: [Goldie369](https://github.com/Goldie369).
@@ -69,7 +71,8 @@ If you have any questions regarding this project, please don't hesitate to conta
 
 ## Credits 
 
-Thank you to my tutor Collin Porter [Collin Porter!](https://github.com/portercol) for help resolving assuises with the code and help to understand this assighment. 
+Thank you to my tutor Collin Porter [Collin Porter!](https://github.com/portercol) for the support and help on this assighment.
+Highly recommend!!!
 
 
 
