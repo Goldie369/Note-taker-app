@@ -1,7 +1,7 @@
-[![License][license-shield]][license-url]
+![](https://img.shields.io/badge/license-MIT-blue)
 
 
-## Note Taker App
+## 🗒️ Note Taker App 🗒️
 
 ## Description
 
@@ -37,6 +37,9 @@ This application helps to organize tasks and delete them after they are complete
         <a href="#resourses">Resourses</a>
     </li>
   </ul>
+        <a href="#Credits">Credits</a>
+    </li>
+  </ul>
 
   ## Installation
 
@@ -62,8 +65,12 @@ If you have any questions regarding this project, please don't hesitate to conta
 - [GitHub]https://github.com/john-abou/note-taker
 - HTML
 - CSS
-- [Shields]https://shields.io
 - [Json]https://www.npmjs.com/package/json
+
+## Credits 
+
+Thank you to my tutor Collin Porter [Collin Porter!](https://github.com/portercol) for the help again!!!
+
 
 
 
