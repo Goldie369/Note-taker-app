@@ -57,6 +57,9 @@ If you have any questions regarding this project, please don't hesitate to conta
 - [Express.js](https://emojipedia.org/)
 - [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 - [Youtube]https://www.youtube.com/watch?v=K9jTQPb0Xso
+- [Youtube]https://www.youtube.com/watch?v=SyiL0J80gDQ
+- [Youtube]https://www.youtube.com/watch?v=wiFW3gQgfd8
+- [GitHub]https://github.com/john-abou/note-taker
 - HTML
 - CSS
 - [Shields]https://shields.io
