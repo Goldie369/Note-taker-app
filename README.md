@@ -69,7 +69,7 @@ If you have any questions regarding this project, please don't hesitate to conta
 
 ## Credits 
 
-Thank you to my tutor Collin Porter [Collin Porter!](https://github.com/portercol) for the help again!!!
+Thank you to my tutor Collin Porter [Collin Porter!](https://github.com/portercol) for help resolving assuises with the code and help to understand this assighment. 
 
 
 
