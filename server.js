@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const uuid = require('./helper/uuid');
-const fsUtils = ('../helper/fsUtils');
+
 
 //-- Process.env.PORT is a variable that represents the port number that will be deployed to Heroku--//
 const port = process.env.PORT || 3001;
