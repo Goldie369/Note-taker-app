@@ -3,10 +3,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  
 }
 
 .save-note {
   display: none;
+  color: pink;
 }
 
 .icons i {
@@ -22,12 +24,15 @@ body {
   width: 100%;
   outline: none;
   border: none;
+  
 }
 
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+  
+  
 }
 
 .note-title {
@@ -46,10 +51,12 @@ body {
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  
 }
 
 .list-container {
   padding-left: 0;
+  
 }
 
 .list-container .list-group,
@@ -58,16 +65,19 @@ body {
   border-top: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+  background-color: pink;
 }
 
 .list-item-title {
   display: inline-block;
   width: 75%;
+ 
 }
 
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
+  
 }
 
 .list-container .list-group-item {
@@ -75,4 +85,6 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+  background-color: pink;
 }
+
